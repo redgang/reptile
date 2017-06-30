@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha test/app.test.js"
+    "start": "node app.js"
   },
   "author": "redx <redx123@126.com> (https://github.com/redgang)",
   "license": "MIT",
