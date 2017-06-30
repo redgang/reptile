@@ -42,6 +42,6 @@ app.get('/', function (req, res, next) {
     });
 });
 
-app.listen('3000',function(req, res){
+app.listen(process.env.PORT || 5000,function(req, res){
     console.log('running 3000')
 })
